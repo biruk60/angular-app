@@ -19,5 +19,5 @@ steps:
     npm install -g @angular/cli
     npm install
     npm audit fix
-    ng build --production
+    ng build --configuration production --aot
   displayName: 'npm install and build'
